@@ -119,3 +119,9 @@ let asad = new Student("Asad", 22, 103);
     console.log(ali.getDetails());
 
 }
+//common js 
+//exports
+module.exports.circle = circle;
+//importing
+const circle = require('./circle.js');
+
